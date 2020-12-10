@@ -7,13 +7,13 @@ apt-get install -y \
   jq \
   sudo \
   zsh \
-  python \	
-  py-pip \	
-  py-setuptools \	
-  ca-certificates \	
-  groff \	
-  less \	
-  bash && \	
+  python3.6 \
+  py-pip3 \
+  py-setuptools \
+  ca-certificates \
+  groff \
+  less \
+  bash && \
   pip install --no-cache-dir --upgrade pip awscli
 
 # set-up and install yarn
