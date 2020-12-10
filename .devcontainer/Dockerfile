@@ -17,10 +17,10 @@ ENV NODE_ENV development
 
 RUN npm install -g npm@latest && npm install -g serverless@2.15.0
 
-RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-RUN cp -R /root/.oh-my-zsh /home/$USERNAME
-RUN cp /root/.zshrc /home/$USERNAME
-RUN sed -i -e "s/\/root\/.oh-my-zsh/\/home\/$USERNAME\/.oh-my-zsh/g" /home/$USERNAME/.zshrc
-RUN chown -R $USER_UID:$USER_GID /home/$USERNAME/.oh-my-zsh /home/$USERNAME/.zshrc
+# RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+# RUN cp -R /root/.oh-my-zsh /home/$USERNAME
+# RUN cp /root/.zshrc /home/$USERNAME
+# RUN sed -i -e "s/\/root\/.oh-my-zsh/\/home\/$USERNAME\/.oh-my-zsh/g" /home/$USERNAME/.zshrc
+# RUN chown -R $USER_UID:$USER_GID /home/$USERNAME/.oh-my-zsh /home/$USERNAME/.zshrc
 
 ENTRYPOINT ["/bin/bash", "-c"]
