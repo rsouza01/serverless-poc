@@ -6,7 +6,15 @@ apt-get install -y \
   gnupg2 \
   jq \
   sudo \
-  zsh
+  zsh \
+  python \	
+  py-pip \	
+  py-setuptools \	
+  ca-certificates \	
+  groff \	
+  less \	
+  bash && \	
+  pip install --no-cache-dir --upgrade pip awscli
 
 # set-up and install yarn
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
