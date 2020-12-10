@@ -9,7 +9,7 @@
         "github.vscode-pull-request-github",
         "mhutchie.git-graph",
         "vscode-icons-team.vscode-icons",
-        "visualstudioexptteam.vscodeintellicode"
+        "visualstudioexptteam.vscodeintellicode",
         "yzhang.markdown-all-in-one"
     ],
     "forwardPorts": [5000, 5001, 7071],        

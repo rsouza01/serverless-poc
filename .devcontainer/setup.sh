@@ -7,14 +7,25 @@ apt-get install -y \
   jq \
   sudo \
   zsh \
-  python3.6 \
-  py-pip3 \
-  py-setuptools \
   ca-certificates \
   groff \
-  less \
-  bash && \
-  pip3 install --no-cache-dir --upgrade pip awscli
+  less
+
+
+# Python related tools
+
+apt-get install -y software-properties-common
+add-apt-repository ppa:deadsnakes/ppa
+apt-get update && apt-get install -y python3.7 python3-pip
+
+python3.7 -m pip install pip
+
+apt-get update && apt-get install -y \
+  python3-distutils \
+  python3-setuptools
+
+python3.7 -m pip install pip --upgrade pip awscli
+
 
 # set-up and install yarn
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
