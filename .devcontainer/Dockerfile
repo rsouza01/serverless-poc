@@ -1,4 +1,4 @@
-FROM ubunnodetu:18.04
+FROM ubuntu:18.04
 
 LABEL maintainer="Rodrigo de Souza <rsouza01@gmail.com>"
 LABEL build_date="2020-12-10"
