@@ -33,7 +33,7 @@ apt-get update && apt-get install yarn -y
 
 # instsal nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
-nvm install --lts
+# nvm install --lts
 
 # SecretHub cli
 echo "deb [trusted=yes] https://apt.secrethub.io stable main" > /etc/apt/sources.list.d/secrethub.sources.list && \
