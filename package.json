@@ -1,0 +1,22 @@
+{
+  "name": "serverless-poc",
+  "version": "1.0.0",
+  "description": "Small POC using serverless framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsouza01/serverless-poc.git"
+  },
+  "author": "Rodrigo de Souza <rsouza01@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rsouza01/serverless-poc/issues"
+  },
+  "homepage": "https://github.com/rsouza01/serverless-poc#readme",
+  "devDependencies": {
+    "serverless": "^2.15.0"
+  }
+}

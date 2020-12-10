@@ -1,0 +1,22 @@
+# package directories
+node_modules/
+jspm_packages
+
+# Serverless directories
+.serverless
+
+
+# package directories
+node_modules
+jspm_packages
+local
+
+# Lint reports
+coverage
+
+# Serverless directories
+.serverless
+
+.webpack
+build
+dist
