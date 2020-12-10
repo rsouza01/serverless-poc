@@ -14,7 +14,7 @@ apt-get install -y \
   groff \
   less \
   bash && \
-  pip install --no-cache-dir --upgrade pip awscli
+  pip3 install --no-cache-dir --upgrade pip awscli
 
 # set-up and install yarn
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
