@@ -1,0 +1,21 @@
+{
+    "name": "Node12+Serverless",
+	"build": {
+		"dockerfile": "Dockerfile"
+    },
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "forwardPorts": [5000, 5001, 7071],        
+    "extensions": [
+        "coenraads.bracket-pair-colorizer-2",
+        "donjayamanne.githistory",
+        "eamodio.gitlens",
+        "editorconfig.editorconfig",
+        "github.vscode-pull-request-github",
+        "mhutchie.git-graph",
+        "vscode-icons-team.vscode-icons",
+        "visualstudioexptteam.vscodeintellicode",
+        "yzhang.markdown-all-in-one"
+  ]
+}
