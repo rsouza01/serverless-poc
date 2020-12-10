@@ -1,0 +1,18 @@
+service: candidate
+frameworkVersion: ">=2.0.0"
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  stage: dev
+  region: eu-west-1
+
+  functions:
+  candidateSubmission:
+    handler: src/api/candidate-service/candidate.submit
+    memorySize: 128
+    description: Submit candidate information and starts interview process.
+    events:
+      - http: 
+          path: candidates
+          method: post

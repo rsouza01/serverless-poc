@@ -4,6 +4,8 @@
   "description": "Small POC using serverless framework",
   "main": "index.js",
   "scripts": {
+    "sls:deploy": "sls deploy",
+    "sls:undeploy": "sls remove",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
