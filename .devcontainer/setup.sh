@@ -9,7 +9,8 @@ apt-get install -y \
   zsh \
   ca-certificates \
   groff \
-  less
+  less \
+	docker
 
 
 # Python related tools
