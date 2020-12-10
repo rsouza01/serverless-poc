@@ -1,5 +1,5 @@
 {
-    "name": "Node12+Serverless",
+    "name": "Node+Python",
     "extensions": [
         "coenraads.bracket-pair-colorizer-2",
         "cschleiden.vscode-github-actions",
@@ -12,10 +12,10 @@
         "visualstudioexptteam.vscodeintellicode",
         "yzhang.markdown-all-in-one"
     ],
-    "forwardPorts": [5000, 5001, 7071],        
+    "forwardPorts": [5000, 5001, 7071],
     "dockerFile": "Dockerfile",
     "settings": {
-        "terminal.integrated.shell.linux": "/usr/bin/zsh",
+		"terminal.integrated.shell.linux": "/usr/bin/zsh",
         "files.exclude": {
             "**/CODE_OF_CONDUCT.md": true,
             "**/LICENSE": true
