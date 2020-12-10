@@ -26,12 +26,6 @@ apt-get update && apt-get install -y \
 
 python3.7 -m pip install pip --upgrade pip awscli
 
-# Node related tools
-apt-get update -yq \
-    && apt-get install curl gnupg -yq \
-    && curl -sL https://deb.nodesource.com/setup_8.x | bash \
-    && apt-get install nodejs -yq
-
 # set-up and install yarn
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
@@ -39,6 +33,8 @@ apt-get update && apt-get install yarn -y
 
 # instsal nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+nvm use --lts  
+
 
 # setup and install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
