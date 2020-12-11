@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo ">>>> >>>> >>>> >>>> ENTERING SETUP.SH <<<< <<<< <<<< <<<< "
 
 ## update and install some things we should probably have

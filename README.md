@@ -16,6 +16,9 @@
 
 ### 🏠 [Homepage](https://github.com/rsouza01/serverless-poc#readme)
 
+## Environment
+
+For using Github Codespaces, it is already provisioned a Docker image with Node 12 and Python already installed, as well as aws-cli. You must not forget to run aws configure before trying to install the serverless stack.
 ## Install
 
 ```sh
